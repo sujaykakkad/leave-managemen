@@ -1,0 +1,21 @@
+.paginate_button.active a {
+    background-color: #00a65a !important;
+}
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover {
+  background-color: #A3E8A2;
+  background-image: -moz-linear-gradient(top,#63C161, #228E20);
+  background-image: -ms-linear-gradient(top, #63C161, #228E20);
+ background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#63C161), to(#228E20));
+  background-image: -o-linear-gradient(top, #63C161, #228E20);
+  background-image: linear-gradient(top, #63C161, #228E20);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
+  border-color: #228E20 #228E20 #155A14;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
